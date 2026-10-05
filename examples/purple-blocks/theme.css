@@ -1,4 +1,5 @@
 html[data-theme-package="example.purple-blocks"] {
+  --ui-popover: var(--ui-surface) !important;
   --ui-radius-card: 0px !important;
   --ui-radius-control: 0px !important;
   --ui-radius-row: 0px !important;
@@ -18,6 +19,7 @@ html[data-theme-package="example.purple-blocks"][data-theme="light"] {
   --ui-dim: #6b2186 !important;
   --ui-faint: #754295 !important;
   --ui-border: #a66cc4 !important;
+  --ui-border-strong: #8555a4 !important;
   --ui-border-soft: #d5b1e8 !important;
 }
 html[data-theme-package="example.purple-blocks"][data-theme="dark"] {
@@ -30,6 +32,7 @@ html[data-theme-package="example.purple-blocks"][data-theme="dark"] {
   --ui-accent-text: #e9bbff !important;
   --ui-accent-soft: #531f76 !important;
   --ui-border: #ab72c8 !important;
+  --ui-border-strong: #bd90d7 !important;
   --ui-border-soft: #7b459c !important;
 }
 html[data-theme-package="example.purple-blocks"] :where(*) {

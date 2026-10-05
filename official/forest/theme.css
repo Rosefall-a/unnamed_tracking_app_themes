@@ -1,4 +1,7 @@
 /* Theme overrides are deliberately scoped to the active package. */
+html[data-theme-package="official.forest"] {
+  --ui-popover: var(--ui-surface) !important;
+}
 html[data-theme-package="official.forest"][data-theme="light"] {
   --ui-bg: #f0f6f0 !important;
   --ui-surface: #ffffff !important;
@@ -12,6 +15,7 @@ html[data-theme-package="official.forest"][data-theme="light"] {
   --ui-accent-soft: #d6eada !important;
   --ui-accent-line: #71a680 !important;
   --ui-border: #a9c6b0 !important;
+  --ui-border-strong: #688570 !important;
   --ui-border-soft: #c4d9c8 !important;
 }
 html[data-theme-package="official.forest"][data-theme="dark"] {
@@ -27,5 +31,6 @@ html[data-theme-package="official.forest"][data-theme="dark"] {
   --ui-accent-soft: #284d32 !important;
   --ui-accent-line: #548e61 !important;
   --ui-border: #597660 !important;
+  --ui-border-strong: #90ae97 !important;
   --ui-border-soft: #3c5542 !important;
 }
