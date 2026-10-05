@@ -32,14 +32,9 @@ html[data-theme-package="example.purple-blocks"][data-theme="dark"] {
   --ui-border: #ab72c8 !important;
   --ui-border-soft: #7b459c !important;
 }
-html[data-theme-package="example.purple-blocks"] :is(
-  .main-navigation, .sidebar-inner, .sidebar-search, .sidebar-nav-link,
-  .nav-folder-toggle, .mobile-nav, .ui-panel, .home-widget, .ui-btn,
-  .ui-field, .ui-modal, .ui-modal-panel, .bell-panel, .profile-menu,
-  .settings-nav-item, .game-card, .media-card, button, input, select, textarea
-) {
+html[data-theme-package="example.purple-blocks"] :where(*) {
   border-radius: 0 !important;
 }
-html[data-theme-package="example.purple-blocks"] .main-navigation {
+html[data-theme-package="example.purple-blocks"] :is(.navigation, .phone-navigation, .mobile-tabs, .settings-nav) {
   border-right: 3px solid var(--ui-accent-line);
 }
