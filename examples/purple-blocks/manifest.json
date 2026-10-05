@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "example.purple-blocks",
+  "name": "Purple Blocks",
+  "version": "1.0.0",
+  "publisher": "Rosefall-a",
+  "description": "Square corners and a very purple interface, including the sidebar and dialogs.",
+  "kind": "example",
+  "stylesheet": "theme.css",
+  "supports": ["light", "dark"]
+}

@@ -1,0 +1,11 @@
+{
+  "format_version": 1,
+  "id": "official.forest",
+  "name": "Forest",
+  "version": "1.0.0",
+  "publisher": "Rosefall-a",
+  "description": "Quiet green accents and distinct light and dark surfaces.",
+  "kind": "official",
+  "stylesheet": "theme.css",
+  "supports": ["light", "dark"]
+}
