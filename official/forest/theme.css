@@ -1,0 +1,36 @@
+/* Theme overrides are deliberately scoped to the active package. */
+html[data-theme-package="official.forest"] {
+  --ui-popover: var(--ui-surface) !important;
+}
+html[data-theme-package="official.forest"][data-theme="light"] {
+  --ui-bg: #f0f6f0 !important;
+  --ui-surface: #ffffff !important;
+  --ui-surface-2: #e5f0e5 !important;
+  --ui-text: #17341d !important;
+  --ui-dim: #405947 !important;
+  --ui-faint: #526c59 !important;
+  --ui-accent: #24733d !important;
+  --ui-accent-text: #1c5f30 !important;
+  --ui-on-accent: #ffffff !important;
+  --ui-accent-soft: #d6eada !important;
+  --ui-accent-line: #71a680 !important;
+  --ui-border: #a9c6b0 !important;
+  --ui-border-strong: #688570 !important;
+  --ui-border-soft: #c4d9c8 !important;
+}
+html[data-theme-package="official.forest"][data-theme="dark"] {
+  --ui-bg: #111e17 !important;
+  --ui-surface: #1b2d21 !important;
+  --ui-surface-2: #253c2c !important;
+  --ui-text: #eef6ef !important;
+  --ui-dim: #bdcfbf !important;
+  --ui-faint: #a6bea9 !important;
+  --ui-accent: #8dce9b !important;
+  --ui-accent-text: #a7e5b3 !important;
+  --ui-on-accent: #102e18 !important;
+  --ui-accent-soft: #284d32 !important;
+  --ui-accent-line: #548e61 !important;
+  --ui-border: #597660 !important;
+  --ui-border-strong: #90ae97 !important;
+  --ui-border-soft: #3c5542 !important;
+}
